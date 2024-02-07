@@ -1,0 +1,10 @@
+pandas                              
+statsmodels                     
+numpy                               
+scikit-learn                      
+yfinance                             
+matplotlib                          
+streamlit                            
+google.generativeai      
+gtts                                      
+plotly                                   
