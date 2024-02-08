@@ -1,10 +1,10 @@
-pandas                              
-statsmodels                     
-numpy                               
-scikit-learn                      
-yfinance                             
-matplotlib                          
-streamlit                            
-google.generativeai      
-gtts                                      
-plotly                                   
+pandas == 2.0.3                              
+statsmodels ==  0.14.1                   
+numpy == 1.26.1                               
+scikit-learn ==  1.3.0                   
+yfinance == 0.2.32                         
+matplotlib == 3.7.2                          
+streamlit == 1.31.0                            
+google.generativeai == 0.3.2    
+gtts == 2.5.0                                       
+plotly == 5.18.0                                     
