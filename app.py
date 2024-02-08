@@ -31,7 +31,7 @@ def display_result(train_data,final_forecast_df):
     for i,j in zip(yahoo_finance_symbols,company_name):
         starting_value = train_data[i][-1] 
         predicted_value = final_forecast_df[i][-1]
-        percentage = (starting_value - predicted_value)/predicted_value
+        percentage = (predicted_value - starting_value)/starting_value
         returns[j] = round(percentage*100,2)
     
     # Finding top five returns
