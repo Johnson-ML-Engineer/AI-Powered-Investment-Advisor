@@ -85,6 +85,7 @@ def main():
     start_date_train = "1998-01-01"
     end_date_train = date.today().strftime("%Y-%m-%d")
     train_data = download_stocks(yahoo_finance_symbols, start_date_train, end_date_train)
+    train_data = train_data.fillna(method='ffill').fillna(method='bfill')
 
     # Loop through each stock, check stationarity, and apply differencing
     stationary_data = {}
