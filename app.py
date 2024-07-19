@@ -82,7 +82,7 @@ def graphical_representation(top_returns_stock, final_forecast_df):
            
 def summary_for_user(companies):
     
-    os.environ["GOOGLE_API_KEY"]="AIzaSyDXrglS5viSsCi3inWpWRWstZy2c5oQwQc"
+    os.environ["GOOGLE_API_KEY"]="AIzaSyAqpOXAbWFhmubFY9fTLNlJxQflIXC7nCg"
     genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
     model = genai.GenerativeModel('gemini-pro')
     # Prompting the large language model.
